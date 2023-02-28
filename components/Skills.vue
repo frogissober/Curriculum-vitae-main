@@ -20,6 +20,12 @@
     />
 
     <font-awesome-icon
+    :icon="['fab', 'js']"
+    class="icon alt"
+    style="font-size: 50px"
+  />
+
+    <font-awesome-icon
       :icon="['fab', 'php']"
       class="icon alt"
       style="font-size: 50px"
