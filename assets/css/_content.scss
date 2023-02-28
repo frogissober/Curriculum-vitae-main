@@ -1,0 +1,74 @@
+#main {
+  background-color: $background-color;
+  color: $grijs;
+}
+
+.content {
+  color: $grijs;
+  font-family: $font1;
+  font-weight: 400;
+  font-size:1.2em;
+}
+
+hr {
+  padding: 2em
+}
+
+#over {
+  .ik {
+    font-family: $font2;
+    font-size: 2rem;
+    
+    span {
+      &.naam {
+        font-size: 6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $zwart;
+        display:block;
+      }
+      &.adres {
+        position: relative;
+        top: -1em;
+        font-weight: 400;
+      }
+      &.oranje {
+        color: $oranje;
+        
+        a, a:visited, a:hover {
+          color:$oranje;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .socials {
+    padding-top: 2em;
+
+    a, a:visited {
+      color: $white;
+      display: inline-block;
+      width: 4em;
+      
+      .circle {
+        display:block;
+        width: 4rem;
+        height: 4rem;
+        background-color: $grijs;
+        border-radius: 50%;
+
+        svg {
+          position: relative;
+          top: 0.6em;
+          left: 0.6em;
+        }
+      }
+    }
+
+    a:hover {
+      .circle {
+        background-color: $oranje;
+      }
+    }
+  }
+}

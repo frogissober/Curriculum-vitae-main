@@ -1,0 +1,55 @@
+.block {
+    display: block;
+    clear:both;
+
+    .main-title {
+        font-family: $font2;
+        color: $zwart;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 4em;
+    }
+
+    .funktie {
+        font-family: $font2;
+        color: $zwart;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    .datum {
+        font-family: $font1;
+        color: $oranje;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+
+    .sub-title {
+        font-family: $font2;
+        color: $grijs;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+        position: relative;
+        top: -0.5em; 
+    }
+
+    .content {
+        font-family: $font1;
+        color: $grijs;
+        font-size: 0.8em;
+
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            &:before {
+               content: '✓'; 
+               padding-right: 1em;
+            }
+        }
+    }
+}

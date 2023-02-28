@@ -1,0 +1,39 @@
+#sidebar {
+
+    .profile-picture { 
+        text-align: center;
+        margin-top: 100px;
+
+        img {       
+            width: 60%; 
+            border-radius: 50%;
+            border: .5rem solid $sidebar-text-color 
+        }
+    }
+
+    nav {
+
+        ul {
+            list-style: none;
+            padding: 1rem 0 0 0;
+            margin: 0;
+
+            li {
+                text-align: center;
+                text-transform: uppercase;
+                padding: .3rem 0; 
+
+                a {
+                    color: $sidebar-text-color;
+                    font-family: $font1;
+
+                    &:hover {
+                        color: darken($sidebar-text-color, 10%);
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
