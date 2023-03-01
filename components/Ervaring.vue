@@ -29,7 +29,7 @@
       <div class="sub-title">Software development</div>
     </div>
     <div class="content"><p>
-      Ik heb een half jaar stage gelopen bij 100, hier heb ik veel geleerd over het bedrijfsleven, en nieuwe technieken.
+      Ik heb een half jaar stage gelopen bij 100, hier heb ik veel geleerd over het bedrijfsleven, en nieuwe technieken in software development.
     </p></div>
 
     <hr>
