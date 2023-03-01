@@ -5,9 +5,9 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Over</a></li>
-        <li><a href="#ervaring">Ervaring</a></li>
-        <li><a href="#opleiding">Opleiding</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#ervaring">Experience</a></li>
+        <li><a href="#opleiding">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#interesses">Hobby's</a></li>
       </ul>

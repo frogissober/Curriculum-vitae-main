@@ -1,7 +1,7 @@
 <template>
   <div id="opleiding">
     <div class="block">
-      <div class="main-title">Opleiding</div>
+      <div class="main-title">Education</div>
     </div>
 
 
@@ -21,7 +21,7 @@
 
 
     <div class="block"> 
-      <div class="float-left funktie">Nassau scholengemeenschap</div>
+      <div class="float-left funktie">de Nassau</div>
       <div class="float-right datum">2015 - 2019</div>
     </div>
 
@@ -35,7 +35,7 @@
 
 
     <div class="block"> 
-      <div class="float-left funktie">Dr. de Visser basisschool</div>
+      <div class="float-left funktie">Dr. de Visser primary school</div>
       <div class="float-right datum">2009 - 2015</div>
     </div>
 
@@ -44,7 +44,7 @@
     </div>
 
     <div class="content"><p>
-      Mavo Advies
+      Mavo advice
     </p></div>
 
 

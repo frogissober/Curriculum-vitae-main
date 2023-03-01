@@ -1,14 +1,14 @@
 <template>
   <div id="ervaring">
     <div class="block">
-      <div class="main-title">Ervaring</div>
+      <div class="main-title">Experience</div>
     </div>
 
 
 
     <div class="block"> 
       <div class="float-left funktie">Curio</div>
-      <div class="float-right datum">2019 - heden</div>
+      <div class="float-right datum">2019 - to date</div>
     </div>
 
     <div class="block">
@@ -16,7 +16,7 @@
     </div>
 
     <div class="content"><p>
-      Op school krijgen we ook praktische opdrachten, hierin leren we in een periode, goed samen te werken, en het bedrijfs leven te leren kennen. 
+      In school, we also receive practical assignments, where we learn to work well together in a period of time, and get to know the business world.
     </p></div>
 
 
@@ -29,7 +29,7 @@
       <div class="sub-title">Software development</div>
     </div>
     <div class="content" style="width: 80%"><p>
-      Tijdens mijn stage bij bedrijf 100 was ik full stack developer en werkte ik met het framework CodeIgniter en hun eigen CMS-systeem om diverse webapplicaties te ontwikkelen. Ik heb mijn vaardigheden in styling verbeterd met behulp van SCSS.
+      During my internship at Company 100, I was a full stack developer and worked with the CodeIgniter framework and their own CMS system to develop various web applications. I improved my styling skills using SCSS.
     </p></div>
 
     <div class="block"> 
@@ -38,10 +38,10 @@
     </div>
 
     <div class="block">
-      <div class="sub-title">Vakkenvuller</div>
+      <div class="sub-title">Shelf stocker</div>
     </div>
     <div class="content" style="width: 80%"><p>
-      Als vakkenvuller bij Jumbo was ik verantwoordelijk voor het vullen van schappen, het netjes houden van de winkel en het helpen van klanten.
+      As a shelf stocker at Jumbo, I was responsible for stocking shelves, keeping the store neat, and helping customers.
     </p></div>
 
     <hr>

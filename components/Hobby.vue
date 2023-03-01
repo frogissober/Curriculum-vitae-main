@@ -5,8 +5,7 @@
     </div>
 
     <div class="content"><p>
-      In mijn vrije tijd geniet ik van verschillende hobby's. Ik vind het heerlijk om te sporten en breng daarom regelmatig tijd door in de sportschool. Daarnaast ben ik ook een gepassioneerde gamer en besteed ik graag tijd aan het spelen van videogames. Als programmeur vind ik het ook leuk om mijn vaardigheden verder te ontwikkelen en te experimenteren met nieuwe technologieën en programmeertalen.
-    </p></div>
+      In my free time, I enjoy various hobbies. I love to exercise, so I spend time at the gym regularly. Additionally, I am also a passionate gamer and enjoy spending time playing video games. As a programmer, I also enjoy further developing my skills and experimenting with new technologies and programming languages.    </p></div>
 
     <hr>    
   </div>

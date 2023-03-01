@@ -5,7 +5,7 @@
     </div>
 
     <div class="block">
-      <div class="sub-title">Programmeertalen en tools</div>
+      <div class="sub-title">Programming languages and tools</div>
     </div>
 
     <font-awesome-icon
@@ -53,7 +53,7 @@
     />
 
     <div class="block">
-      <div class="sub-title pt-4">Overige</div>
+      <div class="sub-title pt-4">Other</div>
     </div>
 
     <div class="block">
