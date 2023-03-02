@@ -8,7 +8,7 @@
 
     <div class="block"> 
       <div class="float-left funktie">Curio</div>
-      <div class="float-right datum">2019 - heden</div>
+      <div class="float-right datum">2019 - to date</div>
     </div>
 
     <div class="block">
