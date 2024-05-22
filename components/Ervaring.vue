@@ -33,15 +33,15 @@
     </p></div>
 
     <div class="block"> 
-      <div class="float-left funktie">Jumbo</div>
-      <div class="float-right datum">2020 - 2023</div>
+      <div class="float-left funktie">Bounsel</div>
+      <div class="float-right datum">2023 - 2024</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Shelf stocker</div>
+      <div class="sub-title">Full stack developer</div>
     </div>
     <div class="content" style="width: 80%"><p>
-      As a shelf stocker at Jumbo, I was responsible for stocking shelves, keeping the store neat, and helping customers.
+      A full stack developer at Bounsel, where I 
     </p></div>
 
     <hr>
