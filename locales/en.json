@@ -6,6 +6,9 @@
     "skills": "Skills",
     "hobbies": "Hobbies"
   },
+  "download": {
+    "button": "Download PDF"
+  },
   "over": {
     "title": "About",
     "description": "As a software developer, I am always looking for new challenges. I am eager to learn and enthusiastic about discovering and trying out new programming languages. I am a team player and enjoy working together on projects, but I am also comfortable working independently. In short, I am always ready for whatever the next project has to offer. And who knows, maybe I will discover my new favorite programming language!"

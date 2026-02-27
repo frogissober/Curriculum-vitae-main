@@ -61,7 +61,7 @@ export default {
     fontawesome: {
         imports: [{
                 set: '@fortawesome/free-solid-svg-icons',
-                icons: ['fas']
+                icons: ['fas', 'faDownload']
             },
             {
                 set: '@fortawesome/free-brands-svg-icons',
