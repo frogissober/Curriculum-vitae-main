@@ -1,11 +1,11 @@
 <template>
   <div id="skills">
     <div class="block">
-      <div class="main-title">Skills</div>
+      <div class="main-title">{{ $t('skills.title') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Programming languages and tools</div>
+      <div class="sub-title">{{ $t('skills.languages') }}</div>
     </div>
 
     <font-awesome-icon
@@ -37,7 +37,7 @@
     />
 
     <div class="block">
-      <div class="sub-title pt-4">Frameworks</div>
+      <div class="sub-title pt-4">{{ $t('skills.frameworks') }}</div>
     </div>
 
     <font-awesome-icon
@@ -53,17 +53,16 @@
     />
 
     <div class="block">
-      <div class="sub-title pt-4">Other</div>
+      <div class="sub-title pt-4">{{ $t('skills.other') }}</div>
     </div>
 
     <div class="block">
       <ul>
-        <li>Webdesign</li>
-        <li>Visual studio code</li>
-        <li>Github</li>
+        <li v-for="item in $t('skills.otherItems')" :key="item">{{ item }}</li>
       </ul>
     </div>
 
     <hr />
   </div>
 </template>
+

@@ -1,50 +1,50 @@
 <template>
   <div id="opleiding">
     <div class="block">
-      <div class="main-title">Education</div>
+      <div class="main-title">{{ $t('opleiding.title') }}</div>
     </div>
 
 
 
     <div class="block"> 
-      <div class="float-left funktie">Curio</div>
-      <div class="float-right datum">2019 - to date</div>
+      <div class="float-left funktie">{{ $t('opleiding.curio.school') }}</div>
+      <div class="float-right datum">{{ $t('opleiding.curio.period') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Software developer</div>
+      <div class="sub-title">{{ $t('opleiding.curio.degree') }}</div>
     </div>
 
     <div class="content"><p>
-      ...
+      {{ $t('opleiding.curio.description') }}
     </p></div>
 
 
     <div class="block"> 
-      <div class="float-left funktie">de Nassau</div>
-      <div class="float-right datum">2015 - 2019</div>
+      <div class="float-left funktie">{{ $t('opleiding.nassau.school') }}</div>
+      <div class="float-right datum">{{ $t('opleiding.nassau.period') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Mavo</div>
+      <div class="sub-title">{{ $t('opleiding.nassau.degree') }}</div>
     </div>
 
     <div class="content"><p>
-      Mavo Diploma
+      {{ $t('opleiding.nassau.description') }}
     </p></div>
 
 
     <div class="block"> 
-      <div class="float-left funktie">Dr. de Visser primary school</div>
-      <div class="float-right datum">2009 - 2015</div>
+      <div class="float-left funktie">{{ $t('opleiding.drVisser.school') }}</div>
+      <div class="float-right datum">{{ $t('opleiding.drVisser.period') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title"></div>
+      <div class="sub-title">{{ $t('opleiding.drVisser.degree') }}</div>
     </div>
 
     <div class="content"><p>
-      Mavo advice
+      {{ $t('opleiding.drVisser.description') }}
     </p></div>
 
 
@@ -52,3 +52,4 @@
     
   </div>
 </template>
+

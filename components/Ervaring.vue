@@ -1,50 +1,51 @@
 <template>
   <div id="ervaring">
     <div class="block">
-      <div class="main-title">Experience</div>
+      <div class="main-title">{{ $t('ervaring.title') }}</div>
     </div>
 
 
 
     <div class="block"> 
-      <div class="float-left funktie">Curio</div>
-      <div class="float-right datum">2019 - to date</div>
+      <div class="float-left funktie">{{ $t('ervaring.curio.company') }}</div>
+      <div class="float-right datum">{{ $t('ervaring.curio.period') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Student</div>
+      <div class="sub-title">{{ $t('ervaring.curio.position') }}</div>
     </div>
 
     <div class="content"><p>
-      In school, we also receive practical assignments, where we learn to work well together in a period of time, and get to know the business world.
+      {{ $t('ervaring.curio.description') }}
     </p></div>
 
 
     <div class="block"> 
-      <div class="float-left funktie">100</div>
-      <div class="float-right datum">2022 - 2022</div>
+      <div class="float-left funktie">{{ $t('ervaring.company100.company') }}</div>
+      <div class="float-right datum">{{ $t('ervaring.company100.period') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Software development</div>
+      <div class="sub-title">{{ $t('ervaring.company100.position') }}</div>
     </div>
     <div class="content" style="width: 80%"><p>
-      During my internship at Company 100, I was a full stack developer and worked with the CodeIgniter framework and their own CMS system to develop various web applications. I improved my styling skills using SCSS.
+      {{ $t('ervaring.company100.description') }}
     </p></div>
 
     <div class="block"> 
-      <div class="float-left funktie">Bounsel</div>
-      <div class="float-right datum">2023 - 2024</div>
+      <div class="float-left funktie">{{ $t('ervaring.bounsel.company') }}</div>
+      <div class="float-right datum">{{ $t('ervaring.bounsel.period') }}</div>
     </div>
 
     <div class="block">
-      <div class="sub-title">Full stack developer</div>
+      <div class="sub-title">{{ $t('ervaring.bounsel.position') }}</div>
     </div>
     <div class="content" style="width: 80%"><p>
-      A full stack developer at Bounsel, where I 
+      {{ $t('ervaring.bounsel.description') }}
     </p></div>
 
     <hr>
     
   </div>
 </template>
+

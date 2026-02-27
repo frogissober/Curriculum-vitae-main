@@ -42,7 +42,21 @@ export default {
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
         'nuxt-fontawesome',
+        '@nuxtjs/i18n',
     ],
+
+    i18n: {
+        locales: ['nl', 'en'],
+        defaultLocale: 'nl',
+        strategy: 'prefix_except_default',
+        vueI18n: {
+            fallbackLocale: 'nl',
+            messages: {
+                nl: require('./locales/nl.json'),
+                en: require('./locales/en.json'),
+            }
+        }
+    },
 
     fontawesome: {
         imports: [{

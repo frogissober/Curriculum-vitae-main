@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "about": "Over",
+    "experience": "Ervaring",
+    "education": "Opleiding",
+    "skills": "Vaardigheden",
+    "hobbies": "Hobby's"
+  },
+  "over": {
+    "title": "Over",
+    "description": "Als softwareontwikkelaar ben ik altijd op zoek naar nieuwe uitdagingen. Ik ben graag leren en enthousiast over het ontdekken en uitproberen van nieuwe programmeertalen. Ik ben een teamspeler en geniet van samenwerking aan projecten, maar werk ook graag zelfstandig. Kort gezegd: ik ben altijd klaar voor wat het volgende project te bieden heeft. En wie weet, misschien ontdek ik mijn nieuwe favoriete programmeertaal!"
+  },
+  "ervaring": {
+    "title": "Ervaring",
+    "curio": {
+      "company": "Curio",
+      "position": "Student",
+      "period": "2019 - vandaag",
+      "description": "In school krijgen we ook praktische opdrachten, waardoor we leren goed samen te werken in een bepaalde periode, en kennis maken met de zakelijke wereld."
+    },
+    "company100": {
+      "company": "100",
+      "position": "Softwareontwikkeling",
+      "period": "2022 - 2022",
+      "description": "Tijdens mijn stageperiode bij Company 100 was ik fullstack developer en werkte ik met het CodeIgniter framework en hun eigen CMS-systeem om verschillende webapplicaties te ontwikkelen. Ik verbeterde mijn styling skills met behulp van SCSS."
+    },
+    "bounsel": {
+      "company": "Bounsel",
+      "position": "Fullstack developer",
+      "period": "2023 - 2024",
+      "description": "Een fullstack developer bij Bounsel, waar ik"
+    }
+  },
+  "opleiding": {
+    "title": "Opleiding",
+    "curio": {
+      "school": "Curio",
+      "degree": "Softwareontwikkelaar",
+      "period": "2019 - vandaag",
+      "description": "..."
+    },
+    "nassau": {
+      "school": "de Nassau",
+      "degree": "Mavo",
+      "period": "2015 - 2019",
+      "description": "Mavo Diploma"
+    },
+    "drVisser": {
+      "school": "Dr. de Visser basisschool",
+      "degree": "",
+      "period": "2009 - 2015",
+      "description": "Mavo advies"
+    }
+  },
+  "skills": {
+    "title": "Vaardigheden",
+    "languages": "Programmeertalen en tools",
+    "frameworks": "Frameworks",
+    "other": "Overig",
+    "otherItems": [
+      "Webdesign",
+      "Visual Studio Code",
+      "Github"
+    ]
+  },
+  "hobby": {
+    "title": "Hobby's",
+    "description": "In mijn vrije tijd geniet ik van verschillende hobby's. Ik hou van sporten, dus ik train regelmatig in de sportschool. Daarnaast ben ik ook een fervent gamer en geniet van het spelen van videospellen. Als programmeur geniet ik ervan om mijn vaardigheden verder te ontwikkelen en te experimenteren met nieuwe technologieën en programmeertalen."
+  }
+}
