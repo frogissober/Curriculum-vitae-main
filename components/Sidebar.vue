@@ -16,11 +16,9 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">{{ $t('nav.about') }}</a></li>
-        <li><a href="#ervaring">{{ $t('nav.experience') }}</a></li>
-        <li><a href="#opleiding">{{ $t('nav.education') }}</a></li>
-        <li><a href="#skills">{{ $t('nav.skills') }}</a></li>
-        <li><a href="#interesses">{{ $t('nav.hobbies') }}</a></li>
+        <li v-for="item in $t('nav.items')" :key="item.href">
+          <a :href="item.href">{{ item.label }}</a>
+        </li>
       </ul>
     </nav>
   </div>

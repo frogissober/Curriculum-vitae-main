@@ -1,73 +1,158 @@
 {
   "nav": {
-    "about": "About",
-    "experience": "Experience",
-    "education": "Education",
-    "skills": "Skills",
-    "hobbies": "Hobbies"
+    "items": [
+      {
+        "label": "About",
+        "href": "#"
+      },
+      {
+        "label": "Experience",
+        "href": "#ervaring"
+      },
+      {
+        "label": "Education",
+        "href": "#opleiding"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Hobbies",
+        "href": "#interesses"
+      }
+    ]
   },
   "download": {
     "button": "Download PDF"
   },
   "over": {
     "title": "About",
-    "description": "As a software developer, I am always looking for new challenges. I am eager to learn and enthusiastic about discovering and trying out new programming languages. I am a team player and enjoy working together on projects, but I am also comfortable working independently. In short, I am always ready for whatever the next project has to offer. And who knows, maybe I will discover my new favorite programming language!"
+    "description": "As a software developer, I am always looking for new challenges and ways to improve myself. I like learning by doing and enjoy discovering and trying out new technologies and programming languages. I work in a structured way and pick things up quickly, which helps me turn ideas into something that actually works.\n\nI work well in a team and enjoy collaborating on projects, but I am also comfortable working independently. I am direct and practical, and I like to build, test and iterate."
   },
   "ervaring": {
     "title": "Experience",
-    "curio": {
-      "company": "Curio",
-      "position": "Student",
-      "period": "2019 - to date",
-      "description": "In school, we also receive practical assignments, where we learn to work well together in a period of time, and get to know the business world."
-    },
-    "company100": {
-      "company": "100",
-      "position": "Software development",
-      "period": "2022 - 2022",
-      "description": "During my internship at Company 100, I was a full stack developer and worked with the CodeIgniter framework and their own CMS system to develop various web applications. I improved my styling skills using SCSS."
-    },
-    "bounsel": {
-      "company": "Bounsel",
-      "position": "Full stack developer",
-      "period": "2023 - 2024",
-      "description": "A full stack developer at Bounsel, where I"
-    }
+    "items": [
+      {
+        "company": "Curio",
+        "position": "Student",
+        "period": "2019 - to date",
+        "description": "In school, we also receive practical assignments, where we learn to work well together in a period of time, and get to know the business world."
+      },
+      {
+        "company": "100",
+        "position": "Software development",
+        "period": "2022 - 2022",
+        "description": "During my internship at Company 100, I was a full stack developer and worked with the CodeIgniter framework and their own CMS system to develop various web applications. I improved my styling skills using SCSS."
+      },
+      {
+        "company": "Bounsel",
+        "position": "Full stack developer",
+        "period": "2023 - 2024",
+        "description": "During my internship at Bounsel in Valencia, I worked as a full stack developer on Timbuzz, a desktop application built with Tauri and Nuxt. The app tracks work activities throughout the day and summarizes them, making it easier to create quotes and support them with a clear overview of completed work."
+      }
+    ]
   },
   "opleiding": {
     "title": "Education",
-    "curio": {
-      "school": "Curio",
-      "degree": "Software developer",
-      "period": "2019 - to date",
-      "description": "..."
-    },
-    "nassau": {
-      "school": "de Nassau",
-      "degree": "Mavo",
-      "period": "2015 - 2019",
-      "description": "Mavo Diploma"
-    },
-    "drVisser": {
-      "school": "Dr. de Visser primary school",
-      "degree": "",
-      "period": "2009 - 2015",
-      "description": "Mavo advice"
-    }
+    "items": [
+      {
+        "school": "Avans University of Applied Sciences Breda",
+        "degree": "Bachelor's in Computer Science - propaedeutic certificate obtained",
+        "period": "2024 - present",
+        "description": "I am currently studying Computer Science at Avans University of Applied Sciences in Breda. In 2025, I obtained my first-year HBO propaedeutic certificate, successfully completing the first year of the program."
+      },
+      {
+        "school": "Curio",
+        "degree": "Software developer",
+        "period": "2019 - 2024",
+        "description": "Completed the Software Developer vocational education program."
+      },
+      {
+        "school": "de Nassau",
+        "degree": "Mavo",
+        "period": "2015 - 2019",
+        "description": "Mavo Diploma"
+      },
+      {
+        "school": "Dr. de Visser primary school",
+        "degree": "",
+        "period": "2009 - 2015",
+        "description": "Mavo advice"
+      }
+    ]
   },
   "skills": {
     "title": "Skills",
-    "languages": "Programming languages and tools",
-    "frameworks": "Frameworks",
-    "other": "Other",
-    "otherItems": [
-      "Webdesign",
-      "Visual Studio Code",
-      "Github"
+    "categories": [
+      {
+        "name": "Programming languages",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "PHP",
+          "Python"
+        ]
+      },
+      {
+        "name": "Frameworks & Libraries",
+        "items": [
+          "Laravel",
+          "Vue",
+          "Nuxt",
+          "Blazor"
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "Git",
+          "GitHub",
+          "Visual Studio Code"
+        ]
+      },
+      {
+        "name": "Technical",
+        "items": [
+          "REST APIs",
+          "Debugging",
+          "SQL (basic)"
+        ]
+      },
+      {
+        "name": "Development workflow",
+        "items": [
+          "Agile/Scrum",
+          "Git branches",
+          "Pull requests",
+          "Collaboration"
+        ]
+      },
+      {
+        "name": "Other",
+        "items": [
+          "Responsive design",
+          "Component-based development",
+          "Command line (basic)",
+          "Docker (basic)"
+        ]
+      },
+      {
+        "name": "Personal skills",
+        "items": [
+          "Problem solving",
+          "Eager to learn",
+          "Independent",
+          "Team player",
+          "Analytical"
+        ]
+      }
     ]
   },
   "hobby": {
     "title": "Hobbies",
-    "description": "In my free time, I enjoy various hobbies. I love to exercise, so I spend time at the gym regularly. Additionally, I am also a passionate gamer and enjoy spending time playing video games. As a programmer, I also enjoy further developing my skills and experimenting with new technologies and programming languages."
+    "description": "In my free time, I spend a lot of time exercising and regularly go to the gym. I also enjoy gaming and spend a lot of time with music. I like discovering new things and challenging myself, both creatively and technically. I also regularly experiment with programming and new technologies, so I can keep developing myself and learning new skills."
   }
 }

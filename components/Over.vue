@@ -6,7 +6,11 @@
       </div>
         <span class="adres">Nieuwe Heilaarstraat 37 - 4813AR  BREDA - +31 6 36493167 - <span class="email"><a href="mailto:floris@tonbogers.nl">floris@tonbogers.nl</a></span></span>
     </div>
-    <div class="content">{{ $t('over.description') }}</div>
+    <div class="content">
+      <p v-for="paragraph in $t('over.description').split('\n\n')" :key="paragraph">
+        {{ paragraph }}
+      </p>
+    </div>
     <div class="socials">
       <a href="https://www.linkedin.com/in/floris-bogers-42ab26224/" target="_blank" class="linkedin">
         <div class="circle">
@@ -20,7 +24,7 @@
       </a>
       <button @click="downloadPDF" class="download-link">
         <div class="circle">
-          <font-awesome-icon :icon="['fas', 'faDownload']" class="icon alt" style="font-size:30px" />
+          <font-awesome-icon :icon="['fas', 'download']" class="icon alt" style="font-size:30px" />
         </div>
       </button>
     </div>

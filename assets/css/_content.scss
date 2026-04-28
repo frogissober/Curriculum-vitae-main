@@ -60,12 +60,18 @@ hr {
     }
   }
   .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     padding-top: 2em;
 
     a, a:visited, button {
       color: $white;
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 4em;
+      height: 4em;
       border: none;
       background: none;
       cursor: pointer;
@@ -92,6 +98,55 @@ hr {
       .circle {
         background-color: $oranje;
       }
+    }
+  }
+}
+
+#skills {
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem 2rem;
+  }
+
+  .skills-category {
+    border-left: 0.25rem solid $oranje;
+    padding-left: 1rem;
+  }
+
+  .skills-category-title {
+    font-family: $font2;
+    color: $zwart;
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 0.45rem;
+  }
+
+  .skills-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skills-item {
+    background-color: rgba($sidebar-text-color, 0.14);
+    border-radius: 999px;
+    color: $grijs;
+    font-family: $font1;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 0.3rem 0.65rem;
+  }
+
+  @media (max-width: 768px) {
+    .skills-list {
+      grid-template-columns: 1fr;
     }
   }
 }

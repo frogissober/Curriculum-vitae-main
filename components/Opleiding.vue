@@ -4,49 +4,20 @@
       <div class="main-title">{{ $t('opleiding.title') }}</div>
     </div>
 
+    <template v-for="item in $t('opleiding.items')">
+      <div :key="`${item.school}-meta`" class="block">
+        <div class="float-left funktie">{{ item.school }}</div>
+        <div class="float-right datum">{{ item.period }}</div>
+      </div>
 
+      <div :key="`${item.school}-degree`" class="block">
+        <div class="sub-title">{{ item.degree }}</div>
+      </div>
 
-    <div class="block"> 
-      <div class="float-left funktie">{{ $t('opleiding.curio.school') }}</div>
-      <div class="float-right datum">{{ $t('opleiding.curio.period') }}</div>
-    </div>
-
-    <div class="block">
-      <div class="sub-title">{{ $t('opleiding.curio.degree') }}</div>
-    </div>
-
-    <div class="content"><p>
-      {{ $t('opleiding.curio.description') }}
-    </p></div>
-
-
-    <div class="block"> 
-      <div class="float-left funktie">{{ $t('opleiding.nassau.school') }}</div>
-      <div class="float-right datum">{{ $t('opleiding.nassau.period') }}</div>
-    </div>
-
-    <div class="block">
-      <div class="sub-title">{{ $t('opleiding.nassau.degree') }}</div>
-    </div>
-
-    <div class="content"><p>
-      {{ $t('opleiding.nassau.description') }}
-    </p></div>
-
-
-    <div class="block"> 
-      <div class="float-left funktie">{{ $t('opleiding.drVisser.school') }}</div>
-      <div class="float-right datum">{{ $t('opleiding.drVisser.period') }}</div>
-    </div>
-
-    <div class="block">
-      <div class="sub-title">{{ $t('opleiding.drVisser.degree') }}</div>
-    </div>
-
-    <div class="content"><p>
-      {{ $t('opleiding.drVisser.description') }}
-    </p></div>
-
+      <div :key="`${item.school}-description`" class="content">
+        <p>{{ item.description }}</p>
+      </div>
+    </template>
 
     <hr>
     

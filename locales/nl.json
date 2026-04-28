@@ -1,73 +1,158 @@
 {
   "nav": {
-    "about": "Over",
-    "experience": "Ervaring",
-    "education": "Opleiding",
-    "skills": "Vaardigheden",
-    "hobbies": "Hobby's"
+    "items": [
+      {
+        "label": "Over",
+        "href": "#"
+      },
+      {
+        "label": "Ervaring",
+        "href": "#ervaring"
+      },
+      {
+        "label": "Opleiding",
+        "href": "#opleiding"
+      },
+      {
+        "label": "Vaardigheden",
+        "href": "#skills"
+      },
+      {
+        "label": "Hobby's",
+        "href": "#interesses"
+      }
+    ]
   },
   "download": {
     "button": "Download PDF"
   },
   "over": {
     "title": "Over",
-    "description": "Als softwareontwikkelaar ben ik altijd op zoek naar nieuwe uitdagingen. Ik ben graag leren en enthousiast over het ontdekken en uitproberen van nieuwe programmeertalen. Ik ben een teamspeler en geniet van samenwerking aan projecten, maar werk ook graag zelfstandig. Kort gezegd: ik ben altijd klaar voor wat het volgende project te bieden heeft. En wie weet, misschien ontdek ik mijn nieuwe favoriete programmeertaal!"
+    "description": "Als softwareontwikkelaar ben ik altijd op zoek naar nieuwe uitdagingen en manieren om mezelf te verbeteren. Ik leer graag door te doen en vind het interessant om nieuwe technologieën en programmeertalen te ontdekken en uit te proberen. Ik werk gestructureerd en pak dingen snel op, waardoor ik ideeën ook echt kan omzetten naar iets werkends.\n\nIk functioneer goed in een team en werk graag samen aan projecten, maar kan ook prima zelfstandig aan de slag. Ik ben direct en praktisch ingesteld en hou ervan om gewoon te bouwen, testen en itereren."
   },
   "ervaring": {
     "title": "Ervaring",
-    "curio": {
-      "company": "Curio",
-      "position": "Student",
-      "period": "2019 - vandaag",
-      "description": "In school krijgen we ook praktische opdrachten, waardoor we leren goed samen te werken in een bepaalde periode, en kennis maken met de zakelijke wereld."
-    },
-    "company100": {
-      "company": "100",
-      "position": "Softwareontwikkeling",
-      "period": "2022 - 2022",
-      "description": "Tijdens mijn stageperiode bij Company 100 was ik fullstack developer en werkte ik met het CodeIgniter framework en hun eigen CMS-systeem om verschillende webapplicaties te ontwikkelen. Ik verbeterde mijn styling skills met behulp van SCSS."
-    },
-    "bounsel": {
-      "company": "Bounsel",
-      "position": "Fullstack developer",
-      "period": "2023 - 2024",
-      "description": "Een fullstack developer bij Bounsel, waar ik"
-    }
+    "items": [
+      {
+        "company": "Curio",
+        "position": "Student",
+        "period": "2019 - vandaag",
+        "description": "In school krijgen we ook praktische opdrachten, waardoor we leren goed samen te werken in een bepaalde periode, en kennis maken met de zakelijke wereld."
+      },
+      {
+        "company": "100",
+        "position": "Softwareontwikkeling",
+        "period": "2022 - 2022",
+        "description": "Tijdens mijn stageperiode bij Company 100 was ik fullstack developer en werkte ik met het CodeIgniter framework en hun eigen CMS-systeem om verschillende webapplicaties te ontwikkelen. Ik verbeterde mijn styling skills met behulp van SCSS."
+      },
+      {
+        "company": "Bounsel",
+        "position": "Fullstack developer",
+        "period": "2023 - 2024",
+        "description": "Tijdens mijn stage bij Bounsel in Valencia werkte ik als fullstack developer aan Timbuzz, een desktopapplicatie gebouwd met Tauri en Nuxt. De app houdt werkzaamheden gedurende de dag bij en vat deze samen, zodat er eenvoudiger offertes gemaakt kunnen worden met een duidelijk overzicht van het uitgevoerde werk."
+      }
+    ]
   },
   "opleiding": {
     "title": "Opleiding",
-    "curio": {
-      "school": "Curio",
-      "degree": "Softwareontwikkelaar",
-      "period": "2019 - vandaag",
-      "description": "..."
-    },
-    "nassau": {
-      "school": "de Nassau",
-      "degree": "Mavo",
-      "period": "2015 - 2019",
-      "description": "Mavo Diploma"
-    },
-    "drVisser": {
-      "school": "Dr. de Visser basisschool",
-      "degree": "",
-      "period": "2009 - 2015",
-      "description": "Mavo advies"
-    }
+    "items": [
+      {
+        "school": "Avans Hogeschool Breda",
+        "degree": "HBO Informatica - propedeuse behaald",
+        "period": "2024 - vandaag",
+        "description": "Momenteel volg ik de opleiding Informatica aan Avans Hogeschool in Breda. In 2025 heb ik mijn propedeuse behaald, waarmee ik mijn eerste studiejaar succesvol heb afgerond."
+      },
+      {
+        "school": "Curio",
+        "degree": "Softwareontwikkelaar",
+        "period": "2019 - 2024",
+        "description": "Mbo-opleiding Softwareontwikkelaar afgerond."
+      },
+      {
+        "school": "de Nassau",
+        "degree": "Mavo",
+        "period": "2015 - 2019",
+        "description": "Mavo Diploma"
+      },
+      {
+        "school": "Dr. de Visser basisschool",
+        "degree": "",
+        "period": "2009 - 2015",
+        "description": "Mavo advies"
+      }
+    ]
   },
   "skills": {
     "title": "Vaardigheden",
-    "languages": "Programmeertalen en tools",
-    "frameworks": "Frameworks",
-    "other": "Overig",
-    "otherItems": [
-      "Webdesign",
-      "Visual Studio Code",
-      "Github"
+    "categories": [
+      {
+        "name": "Programmeertalen",
+        "items": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "PHP",
+          "Python"
+        ]
+      },
+      {
+        "name": "Frameworks & Libraries",
+        "items": [
+          "Laravel",
+          "Vue",
+          "Nuxt",
+          "Blazor"
+        ]
+      },
+      {
+        "name": "Tools",
+        "items": [
+          "Git",
+          "GitHub",
+          "Visual Studio Code"
+        ]
+      },
+      {
+        "name": "Technisch",
+        "items": [
+          "REST API's",
+          "Debugging",
+          "SQL (basis)"
+        ]
+      },
+      {
+        "name": "Development workflow",
+        "items": [
+          "Agile/Scrum",
+          "Git branches",
+          "Pull requests",
+          "Samenwerken"
+        ]
+      },
+      {
+        "name": "Overig",
+        "items": [
+          "Responsive design",
+          "Component-based development",
+          "Command line (basis)",
+          "Docker (basis)"
+        ]
+      },
+      {
+        "name": "Persoonlijke vaardigheden",
+        "items": [
+          "Probleemoplossend",
+          "Leergierig",
+          "Zelfstandig",
+          "Teamspeler",
+          "Analytisch"
+        ]
+      }
     ]
   },
   "hobby": {
     "title": "Hobby's",
-    "description": "In mijn vrije tijd geniet ik van verschillende hobby's. Ik hou van sporten, dus ik train regelmatig in de sportschool. Daarnaast ben ik ook een fervent gamer en geniet van het spelen van videospellen. Als programmeur geniet ik ervan om mijn vaardigheden verder te ontwikkelen en te experimenteren met nieuwe technologieën en programmeertalen."
+    "description": "In mijn vrije tijd ben ik veel bezig met sporten en sta ik regelmatig in de sportschool. Daarnaast game ik graag en ben ik veel met muziek bezig. Ik vind het leuk om nieuwe dingen te ontdekken en mezelf uit te dagen, zowel creatief als technisch. Ook experimenteer ik regelmatig met programmeren en nieuwe technologieën, zodat ik mezelf blijf ontwikkelen en nieuwe skills opdoe."
   }
 }
