@@ -28,28 +28,22 @@
   },
   "over": {
     "title": "About",
-    "description": "As a software developer, I am always looking for new challenges and ways to improve myself. I like learning by doing and enjoy discovering and trying out new technologies and programming languages. I work in a structured way and pick things up quickly, which helps me turn ideas into something that actually works.\n\nI work well in a team and enjoy collaborating on projects, but I am also comfortable working independently. I am direct and practical, and I like to build, test and iterate."
+    "description": "I am a software developer who loves to build and quickly switch from an idea to something that works. I prefer learning by doing: picking up new technologies, applying them, and improving until it's right.\n\nIn projects, I take a structured approach and work step by step toward a working solution. I look beyond just whether something works technically. I also pay attention to how logical it is, how it's used, and whether it remains scalable.\n\nWhen I work on something, I make sure it gets done. I think along about choices, work things out, and keep tweaking until it's set up well.\n\nI enjoy working in a team and keep communication simple and clear. At the same time, I have no problem diving into something independently and figuring it out."
   },
   "ervaring": {
     "title": "Experience",
     "items": [
       {
-        "company": "Curio",
-        "position": "Student",
-        "period": "2019 - to date",
-        "description": "In school, we also receive practical assignments, where we learn to work well together in a period of time, and get to know the business world."
+        "company": "Bounsel",
+        "position": "Full stack developer",
+        "period": "2023 - 2024",
+        "description": "During my internship at Bounsel in Valencia, I worked as a fullstack developer on Timbuzz, a desktop application built with Tauri and Nuxt.\n\nI worked on both frontend and backend and was involved in components that directly impacted how users register their work and convert it into quotes. Because of this, I immediately saw what worked and what didn't, and I could improve it directly."
       },
       {
         "company": "100",
         "position": "Software development",
         "period": "2022 - 2022",
-        "description": "During my internship at Company 100, I was a full stack developer and worked with the CodeIgniter framework and their own CMS system to develop various web applications. I improved my styling skills using SCSS."
-      },
-      {
-        "company": "Bounsel",
-        "position": "Full stack developer",
-        "period": "2023 - 2024",
-        "description": "During my internship at Bounsel in Valencia, I worked as a full stack developer on Timbuzz, a desktop application built with Tauri and Nuxt. The app tracks work activities throughout the day and summarizes them, making it easier to create quotes and support them with a clear overview of completed work."
+        "description": "At Company 100, I worked with the CodeIgniter framework and an internal CMS on various web applications.\n\nHere I learned to work within existing codebases and extend functionality without breaking the structure. I gained insight into how projects are set up and further developed in a professional environment."
       }
     ]
   },
@@ -60,13 +54,13 @@
         "school": "Avans University of Applied Sciences Breda",
         "degree": "Bachelor's in Computer Science - propaedeutic certificate obtained",
         "period": "2024 - present",
-        "description": "I am currently studying Computer Science at Avans University of Applied Sciences in Breda. In 2025, I obtained my first-year HBO propaedeutic certificate, successfully completing the first year of the program."
+        "description": "I am currently studying HBO Computer Science at Avans University of Applied Sciences in Breda, where I obtained my propaedeutic certificate.\n\nWithin the program, I work a lot in group projects where we develop applications from start to finish. We start with an idea and work it out into a working product, including planning, development, and testing. In these projects, I learned how to work together towards a result and how to maintain an overview while everyone works on different parts."
       },
       {
         "school": "Curio",
         "degree": "Software developer",
         "period": "2019 - 2024",
-        "description": "Completed the Software Developer vocational education program."
+        "description": "Before that, I completed the MBO Software Developer program, where I laid my technical foundation."
       },
       {
         "school": "de Nassau",
@@ -153,6 +147,6 @@
   },
   "hobby": {
     "title": "Hobbies",
-    "description": "In my free time, I spend a lot of time exercising and regularly go to the gym. I also enjoy gaming and spend a lot of time with music. I like discovering new things and challenging myself, both creatively and technically. I also regularly experiment with programming and new technologies, so I can keep developing myself and learning new skills."
+    "description": "In my free time, I regularly hit the gym and focus on progression. You can also see this goal-oriented approach in how I handle other things.\n\nIn addition, I enjoy gaming and am very involved with music. I like trying out new things, whether it's a genre or something technical.\n\nEven outside of projects, I often build or experiment with new technologies, just to see how something works and what you can do with it."
   }
 }

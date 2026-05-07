@@ -33,51 +33,10 @@
 </template>
 
 <script>
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
-
 export default {
   methods: {
-    async downloadPDF() {
-      try {
-        const element = document.querySelector('#main');
-        const locale = this.$i18n.locale;
-        const filename = locale === 'nl' ? 'CV_Floris_Bogers.pdf' : 'CV_Floris_Bogers_EN.pdf';
-        
-        // Convert the HTML element to canvas
-        const canvas = await html2canvas(element, {
-          scale: 2,
-          allowTaint: true,
-          useCORS: true,
-          backgroundColor: '#ffffff'
-        });
-        
-        // Get canvas dimensions
-        const imgWidth = 210; // A4 width in mm
-        const pageHeight = 295; // A4 height in mm
-        const imgHeight = (canvas.height * imgWidth) / canvas.width;
-        
-        // Create PDF
-        const pdf = new jsPDF('p', 'mm', 'a4');
-        let heightLeft = imgHeight;
-        let position = 0;
-        
-        const imgData = canvas.toDataURL('image/png');
-        
-        // Add image to PDF, with multiple pages if needed
-        while (heightLeft >= 0) {
-          pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
-          heightLeft -= pageHeight;
-          if (heightLeft > 0) {
-            pdf.addPage();
-            position = heightLeft - imgHeight;
-          }
-        }
-        
-        pdf.save(filename);
-      } catch (error) {
-        console.error('Error generating PDF:', error);
-      }
+    downloadPDF() {
+      window.print();
     }
   }
 }

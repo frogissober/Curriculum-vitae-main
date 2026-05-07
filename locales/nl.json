@@ -28,28 +28,22 @@
   },
   "over": {
     "title": "Over",
-    "description": "Als softwareontwikkelaar ben ik altijd op zoek naar nieuwe uitdagingen en manieren om mezelf te verbeteren. Ik leer graag door te doen en vind het interessant om nieuwe technologieën en programmeertalen te ontdekken en uit te proberen. Ik werk gestructureerd en pak dingen snel op, waardoor ik ideeën ook echt kan omzetten naar iets werkends.\n\nIk functioneer goed in een team en werk graag samen aan projecten, maar kan ook prima zelfstandig aan de slag. Ik ben direct en praktisch ingesteld en hou ervan om gewoon te bouwen, testen en itereren."
+    "description": "Ik ben een softwareontwikkelaar die graag bouwt en snel schakelt van idee naar iets dat werkt. Ik leer het liefst door te doen: nieuwe technologie oppakken, toepassen en verbeteren tot het klopt.\n\nIn projecten pak ik dingen gestructureerd aan en werk ik stap voor stap naar een werkende oplossing. Daarbij kijk ik verder dan alleen of iets technisch werkt. Ik let ook op hoe logisch het is, hoe het gebruikt wordt en of het schaalbaar blijft.\n\nAls ik ergens aan werk, zorg ik dat het afkomt. Ik denk mee over keuzes, werk dingen uit en blijf eraan sleutelen tot het goed staat.\n\nIk werk graag samen en houd communicatie simpel en duidelijk. Tegelijk vind ik het geen probleem om zelfstandig ergens in te duiken en het uit te zoeken."
   },
   "ervaring": {
     "title": "Ervaring",
     "items": [
       {
-        "company": "Curio",
-        "position": "Student",
-        "period": "2019 - vandaag",
-        "description": "In school krijgen we ook praktische opdrachten, waardoor we leren goed samen te werken in een bepaalde periode, en kennis maken met de zakelijke wereld."
+        "company": "Bounsel",
+        "position": "Fullstack developer",
+        "period": "2023 - 2024",
+        "description": "Tijdens mijn stage bij Bounsel in Valencia werkte ik als fullstack developer aan Timbuzz, een desktopapplicatie gebouwd met Tauri en Nuxt.\n\nIk werkte aan zowel frontend als backend en was betrokken bij onderdelen die direct invloed hadden op hoe gebruikers hun werk registreren en omzetten naar offertes. Daardoor zag ik meteen wat wel en niet werkte, en kon ik dat ook direct verbeteren."
       },
       {
         "company": "100",
         "position": "Softwareontwikkeling",
         "period": "2022 - 2022",
-        "description": "Tijdens mijn stageperiode bij Company 100 was ik fullstack developer en werkte ik met het CodeIgniter framework en hun eigen CMS-systeem om verschillende webapplicaties te ontwikkelen. Ik verbeterde mijn styling skills met behulp van SCSS."
-      },
-      {
-        "company": "Bounsel",
-        "position": "Fullstack developer",
-        "period": "2023 - 2024",
-        "description": "Tijdens mijn stage bij Bounsel in Valencia werkte ik als fullstack developer aan Timbuzz, een desktopapplicatie gebouwd met Tauri en Nuxt. De app houdt werkzaamheden gedurende de dag bij en vat deze samen, zodat er eenvoudiger offertes gemaakt kunnen worden met een duidelijk overzicht van het uitgevoerde werk."
+        "description": "Bij Company 100 werkte ik met het CodeIgniter framework en een intern CMS aan verschillende webapplicaties.\n\nHier leerde ik werken binnen bestaande codebases en functionaliteit uitbreiden zonder de structuur te breken. Ik kreeg inzicht in hoe projecten in een professionele omgeving worden opgezet en doorontwikkeld."
       }
     ]
   },
@@ -60,13 +54,13 @@
         "school": "Avans Hogeschool Breda",
         "degree": "HBO Informatica - propedeuse behaald",
         "period": "2024 - vandaag",
-        "description": "Momenteel volg ik de opleiding Informatica aan Avans Hogeschool in Breda. In 2025 heb ik mijn propedeuse behaald, waarmee ik mijn eerste studiejaar succesvol heb afgerond."
+        "description": "Momenteel volg ik HBO Informatica aan Avans Hogeschool in Breda, waar ik mijn propedeuse heb behaald.\n\nBinnen de opleiding werk ik veel in groepsprojecten waarbij we applicaties van begin tot eind ontwikkelen. We starten bij een idee en werken dat uit naar een werkend product, inclusief planning, development en testen. In die projecten heb ik geleerd hoe je samen toewerkt naar een resultaat en hoe je overzicht houdt terwijl iedereen aan verschillende onderdelen werkt."
       },
       {
         "school": "Curio",
         "degree": "Softwareontwikkelaar",
         "period": "2019 - 2024",
-        "description": "Mbo-opleiding Softwareontwikkelaar afgerond."
+        "description": "Daarvoor heb ik de mbo-opleiding Softwareontwikkelaar afgerond, waar ik mijn technische basis heb gelegd."
       },
       {
         "school": "de Nassau",
@@ -153,6 +147,6 @@
   },
   "hobby": {
     "title": "Hobby's",
-    "description": "In mijn vrije tijd ben ik veel bezig met sporten en sta ik regelmatig in de sportschool. Daarnaast game ik graag en ben ik veel met muziek bezig. Ik vind het leuk om nieuwe dingen te ontdekken en mezelf uit te dagen, zowel creatief als technisch. Ook experimenteer ik regelmatig met programmeren en nieuwe technologieën, zodat ik mezelf blijf ontwikkelen en nieuwe skills opdoe."
+    "description": "In mijn vrije tijd sta ik regelmatig in de sportschool en werk ik gericht aan progressie. Dat doelgerichte zie je ook terug in hoe ik met andere dingen bezig ben.\n\nDaarnaast game ik en ben ik veel met muziek bezig. Ik probeer graag nieuwe dingen uit, of dat nou een genre is of iets technisch.\n\nOok buiten projecten om zit ik vaak te bouwen of te experimenteren met nieuwe technologieën, gewoon om te kijken hoe iets werkt en wat je ermee kunt."
   }
 }

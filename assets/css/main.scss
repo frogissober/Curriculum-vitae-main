@@ -10,3 +10,39 @@ html {
 body {
   background-color: $sidebar-background-color;
 }
+
+@media print {
+  body {
+    background-color: white !important;
+  }
+  
+  /* Zorg dat de elementen vloeiend in de afdruk passen */
+  #sidebar {
+    background-color: $sidebar-background-color !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    padding-bottom: 2rem;
+  }
+
+  /* Verberg de link/navigatie en de downloadknop op de print/PDF */
+  .download-link {
+    display: none !important;
+  }
+  
+  .language-switcher {
+    display: none !important;
+  }
+  
+  /* Voorkom dat blokken halverwege doormidden knippen op de volgende A4 */
+  .block {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Maak het lettertype op de afdruk wellicht nog net iets groter/leesbaarder */
+  .content {
+    font-size: 1rem !important;
+  }
+}
+

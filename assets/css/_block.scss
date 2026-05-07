@@ -8,6 +8,7 @@
         text-transform: uppercase;
         font-weight: 700;
         font-size: 4em;
+        letter-spacing: 1px;
     }
 
     .funktie {
@@ -16,6 +17,7 @@
         text-transform: uppercase;
         font-weight: 700;
         font-size: 2em;
+        letter-spacing: 0.5px;
     }
 
     .datum {
@@ -38,8 +40,8 @@
     .content {
         font-family: $font1;
         color: $grijs;
-        font-size: 0.8em;
-
+        font-size: 0.85em;
+        line-height: 1.6;
     }
 
     ul {
